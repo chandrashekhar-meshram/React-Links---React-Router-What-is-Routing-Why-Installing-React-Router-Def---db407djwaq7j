@@ -8,10 +8,10 @@ const Home = () => {
         <li>
           <h2 id="home-item">Home</h2>
         </li>
-        <li>          
-            <h2 id="topics-item">
-              <Link to="/topics">Topics</Link>    
-            </h2>               
+        <li>
+          <h2 id="topics-item">
+            <Link to="/topics">Topics</Link>
+          </h2>
         </li>
       </ul>
       <hr />
