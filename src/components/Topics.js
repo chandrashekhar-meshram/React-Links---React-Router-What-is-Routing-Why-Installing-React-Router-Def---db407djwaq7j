@@ -1,5 +1,5 @@
 import React from "react";
-import { Redirect } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 const Topics = () => {
   return (
@@ -8,11 +8,13 @@ const Topics = () => {
       <ul>
         <li>
           <h2 id="rendering">
-            <Link to="/topics/components">Rendering</Link>
+            <Link to="/topics/rendering">Rendering</Link>
           </h2>
         </li>
         <li>
-          <h2 id="components">Components</h2>
+          <h2 id="components">
+            <Link to="/topics/components">Components</Link>
+          </h2>
         </li>
       </ul>
       <hr />
