@@ -1,7 +1,12 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import { Link, useHistory } from "react-router-dom";
 
 const Topics = () => {
+  let history = useHistory();
+  const backFn = () => {
+    history.goBack();
+  };
+
   return (
     <div id="topics-div">
       <h2>Topics</h2>
@@ -18,7 +23,9 @@ const Topics = () => {
         </li>
       </ul>
       <hr />
-      <button id="topics-back-button">Back</button>
+      <button id="topics-back-button" onClick={backFn}>
+        Back
+      </button>
       {/* <Redirect to="/">Back</Redirect> */}
     </div>
   );
