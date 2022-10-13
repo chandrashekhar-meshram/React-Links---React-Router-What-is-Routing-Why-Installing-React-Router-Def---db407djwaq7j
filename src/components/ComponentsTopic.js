@@ -7,9 +7,7 @@ const ComponentsTopic = () => {
 
 //   const backFn = () => {
 //     history.goBack();
-//   };
-  
-  
+//   };  
 
   return (
     <div id="components-div">
