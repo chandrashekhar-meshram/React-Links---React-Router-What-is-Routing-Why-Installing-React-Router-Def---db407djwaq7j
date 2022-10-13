@@ -6,7 +6,9 @@ const Home = () => {
     <div id="home-div">
       <ul>
         <li>
-          <h2 id="home-item">Home</h2>
+          <h2 id="home-item">
+            <Link to="/">Home</Link>
+          </h2>
         </li>
         <li>
           <h2 id="topics-item">
